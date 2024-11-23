@@ -133,3 +133,41 @@ body {
 .forgot-password a:hover {
   text-decoration: underline;
 }
+
+/* Hide elements with the 'hidden' class */
+.hidden {
+  display: none;
+}
+
+/* Adjust form containers to look consistent */
+.login-form-container {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.login-form-container h2 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.login-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-form-container input {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.login-form-container input:focus {
+  border-color: #5cb8ff;
+}
